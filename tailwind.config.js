@@ -14,7 +14,9 @@ export default {
       three:"#FFFFFF",
       four:"#707070",
       five:"#080810",
-      six:"#C96A5E"
+      six:"#C96A5E",
+      seven:"#0B0B16",
+      eight:"#615D58"
       
 
     },

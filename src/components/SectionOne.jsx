@@ -16,13 +16,13 @@ export const SectionOne = () => {
   return (
     <div className="flex-row px-8 py-10 md:flex justify-center items-center h-screen gap-2 md:gap-2 lg:justify-center  bg-five text-three">
       <div className="flex flex-col md:flex-row justify-center items-center gap-10">
-        {heroComponent == 0 && <div className="font-semibold  text-3xl md:text-5xl w-28 z-10">
+        {heroComponent == 0 && <div className="font-semibold  text-3xl md:text-5xl w-28 z-10 shadow-inner">
           Singers
         </div>}
-        {heroComponent == 1 && <div className="font-semibold  text-3xl md:text-5xl w-28 z-10">
+        {heroComponent == 1 && <div className="font-semibold  text-3xl md:text-5xl w-28 z-10 shadow-inner">
           Dancers
         </div>}
-        {heroComponent == 2 && <div className="font-semibold  text-3xl md:text-5xl  w-28 z-10">
+        {heroComponent == 2 && <div className="font-semibold  text-3xl md:text-5xl  w-28 z-10 shadow-inner">
           Comedians
         </div>}
         <div>
