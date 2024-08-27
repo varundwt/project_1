@@ -29,7 +29,7 @@ export const SectionTwo = () => {
             </button>
           </div>
         </div>
-        {!handleButton && <div className="p-10 w-2/3">
+        {!handleButton && <div className="md:p-10 w-2/3">
           <div className="md:flex gap-3 md:py-3 pb-0">
             <div><img src="/images/gridKK.png" alt="grid-images" className="rounded-tl-full rounded-bl-full rounded-tr-full rounded-br-md border-eight border-2 my-3 md:my-0 hover:scale-105 transition-all duration-500"/></div>
             <div><img src="/images/gridAS2.png" alt="grid-images" className="rounded-3xl border-eight border-2 my-3 md:my-0 hover:scale-105 transition-all duration-500"/></div>
@@ -43,7 +43,7 @@ export const SectionTwo = () => {
             <div><img src="/images/gridZK.jpg" alt="grid-images" className="border-eight border-2 my-3 md:my-0 hover:scale-105 transition-all duration-500"/></div>
           </div>
         </div>}
-        {handleButton && <div className="p-10 w-2/3">
+        {handleButton && <div className="md:p-10 w-2/3">
           <div className="md:flex gap-10 md:py-3 pb-0">
             <div><img src="/images/vidAS.jpg" alt="grid-images" className="rounded-3xl border-eight border-2 my-3 md:my-0 hover:scale-105 transition-all duration-500"/></div>
             <div><img src="/images/vidAS.jpg" alt="grid-images" className="rounded-3xl border-eight border-2 my-3 md:my-0 hover:scale-105 transition-all duration-500"/></div>
