@@ -5,12 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {}
+    },
     colors: {
       one :"#C54939",
       two:"#000000",
       three:"#FFFFFF",
-      four:"#707070"
+      four:"#707070",
+      five:"#080810",
+      six:"#C96A5E"
+      
+
     },
     fontFamily: {
       'sans': ['Poppins'],      
