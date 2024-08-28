@@ -18,7 +18,7 @@ export const SectionFour = () => {
   }
 
   return (
-    <div className="text-three bg-five">
+    <div className="text-three bg-five pt-8 md:pt-0">
       <h1 className="font-semibold  text-xl md:text-4xl shadow-inner text-center pb-5 md:pb-12 ">
         Meet Our Starclinch Squad
       </h1>
