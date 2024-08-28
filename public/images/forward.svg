@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="193" height="321" viewBox="0 0 193 321">
+  <defs>
+    <clipPath id="clip-forward">
+      <rect width="193" height="321"/>
+    </clipPath>
+  </defs>
+  <g id="forward" clip-path="url(#clip-forward)">
+    <path id="arrow" d="M160,128.4,192.3,96,352,256,192.3,416,160,383.6,287.3,256Z" transform="translate(-160 -95)" fill="#c96a5e"/>
+  </g>
+</svg>

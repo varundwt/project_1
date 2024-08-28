@@ -14,17 +14,17 @@ export const SectionTwo = () => {
   return (
     <div
       
-      className="text-three bg-five "
+      className="text-three bg-five"
     >
       <div className="flex flex-col justify-center items-center md:mt-0">
         <div className="flex justify-between items-center gap-4 rounded-2xl p-8 shadow-md bg-seven">
           <div>
-            <button className="bg-three text-two hover:bg-four hover:text-two rounded-3xl p-3 px-5 hover:scale-105 transition-all duration-500 cursor-pointer" onClick={()=>handlePhotos()}>
+            <button className="bg-three text-two hover:bg-one hover:text-three rounded-3xl p-3 px-5 hover:scale-105 transition-all duration-500 cursor-pointer" onClick={()=>handlePhotos()}>
               Photos
             </button>
           </div>
           <div>
-            <button className="bg-three text-two hover:bg-four hover:text-two rounded-3xl p-3 px-5 hover:scale-105 transition-all duration-500 cursor-pointer" onClick={()=>handleVideos()}>
+            <button className="bg-three text-two hover:bg-one hover:text-three rounded-3xl p-3 px-5 hover:scale-105 transition-all duration-500 cursor-pointer" onClick={()=>handleVideos()}>
               Videos
             </button>
           </div>

@@ -24,7 +24,9 @@ export default {
       five:"#080810",
       six:"#C96A5E",
       seven:"#0B0B16",
-      eight:"#615D58"
+      eight:"#615D58",
+      nine:"#1D5455",
+      ten:"#50BEC1"
       
 
     },

@@ -8,9 +8,7 @@ export const SectionOne = () => {
     setHeroComponent(heroComponent + 1);
     if(heroComponent == 2){
       setHeroComponent(0);
-    }
-    console.log(heroComponent);
-    
+    }    
   }
 
   return (
