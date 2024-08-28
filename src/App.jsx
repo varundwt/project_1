@@ -1,4 +1,5 @@
 import './App.css'
+import { SectionFive } from './components/SectionFive'
 import { SectionFour } from './components/SectionFour'
 import { SectionOne } from './components/SectionOne'
 import { SectionThree } from './components/SectionThree'
@@ -11,6 +12,7 @@ function App() {
       <SectionTwo/>
       <SectionThree/>
       <SectionFour/>
+      <SectionFive/>
     </>
   )
 }
