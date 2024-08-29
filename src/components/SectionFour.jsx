@@ -122,15 +122,21 @@ export const SectionFour = () => {
               5 Members
             </button>
           </div>
-          {handleButton ==0 && <div>
-            <h1 className="md:text-3xl pb-2">Design Dynamos</h1>
-          </div>}
-          {handleButton ==1 && <div>
-            <h1 className="md:text-3xl pb-2">Tech Titans</h1>
-          </div>}
-          {handleButton ==2 && <div>
-            <h1 className="md:text-3xl pb-2">Daring Developers</h1>
-          </div>}
+          {handleButton == 0 && (
+            <div>
+              <h1 className="md:text-3xl pb-2">Design Dynamos</h1>
+            </div>
+          )}
+          {handleButton == 1 && (
+            <div>
+              <h1 className="md:text-3xl pb-2">Tech Titans</h1>
+            </div>
+          )}
+          {handleButton == 2 && (
+            <div>
+              <h1 className="md:text-3xl pb-2">Daring Developers</h1>
+            </div>
+          )}
           <div>
             <h1 className="text-center text-xs md:text-lg px-2 md:px-52 lg:px-80">
               The artist behind the visuals. The design superheros bring ideas
